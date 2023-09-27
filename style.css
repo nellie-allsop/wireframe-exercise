@@ -1,14 +1,9 @@
 body {
-	margin: 100px;
 	font-family: sans-serif;
 }
 
-main {
-	width: 80%;
-}
-
 header {
-	background-color: grey;
+	background-color: #444444;
 	display: flex;
 	align-items: center;
 	width: 100%;
@@ -23,10 +18,12 @@ nav {
 #placeholder {
 	display: flex;
 	margin: 30px;
+	justify-content: space-evenly;
 }
 
 #placeholder-2 {
 	display: flex;
+	justify-content: space-evenly;
 }
 
 #hero-image {
@@ -43,6 +40,38 @@ nav {
 footer {
 	height: 50px;
 	width: 100%;
-	background-color: grey;
-	border: 5px solid #ff0000;
+	background-color: #444444;
+}
+
+anchor {
+	color: #7d7d7d;
+}
+
+button {
+	color: white;
+	background-color: black;
+	margin: 30px;
+}
+
+button:hover {
+	background-color: aqua;
+}
+
+p {
+	font-style: italic;
+	margin: 30px;
+	height: 348px;
+	overflow: scroll;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+#featured-section-banner {
+	margin: 30px;
+}
+
+#section-text {
+	margin: 30px;
 }
