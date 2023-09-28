@@ -15,6 +15,8 @@ nav {
 	justify-content: space-evenly;
 }
 
+/* 100% width makes something as wide as its parent */
+
 #placeholder {
 	display: flex;
 	margin: 30px;
@@ -22,7 +24,7 @@ nav {
 }
 
 #placeholder-2 {
-	display: flex;
+	display: flex-row;
 	justify-content: space-evenly;
 }
 
